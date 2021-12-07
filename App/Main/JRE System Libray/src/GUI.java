@@ -1,5 +1,9 @@
 
-
+// It's about drive, it's about power
+// We stay hungry, we devour
+// Put in the work, put in the hours and take what's ours (ahoo)
+// Black and Samoan in my veins
+// My culture bangin' with Strange
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -59,11 +63,18 @@ public class GUI implements ActionListener{
 
   }
   @Override
-  public void actionPerformed(ActionEvent e) {
-System.out.printIn("Button was clicked")
+    public void actionPerformed(ActionEvent e) {
+  System.out.printIn("Button was clicked")
 
-String user = userText.getText();
-String password = passwordText.getText();
+  String user = userText.getText();
+  String password = passwordText.getText();
+
+  // Add users here
+
+if(user.equals("Sillyangel3") && password.equals("Burgarking2131")) {
+  success.setText("Login successful!")
+}
+
   }
 
 }
